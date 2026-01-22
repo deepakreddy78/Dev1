@@ -23,3 +23,6 @@ jobs:
 
       - name: skip tests
         run: echo "No tests available"
+      
+      - name : Trigger the render webhook
+        run : curl -X POST ${{secrets.RENDER_WEBHOOK_URL}}
