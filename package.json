@@ -2,12 +2,17 @@
   "name": "zz",
   "version": "1.0.0",
   "main": "index.js",
+  "type":"module",
   "scripts": {
+    "start": "node index.js",
     "run": "node index.js",
     "test": "node test.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
